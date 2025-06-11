@@ -1,0 +1,13 @@
+{
+  "headline": "EcoNova - Sustainable Technology",
+  "subheadline": "Discover EcoNova, the innovative sustainable technology product that's changing the world.",
+  "backgroundImage": {
+    "url": "/images/hero-bg.jpg",
+    "title": "Hero Background"
+  },
+  "ctaButton": {
+    "text": "Get Started",
+    "link": "/contact",
+    "variant": "primary"
+  }
+} 

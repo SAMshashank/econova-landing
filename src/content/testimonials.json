@@ -1,0 +1,46 @@
+{
+  "title": "What Our Customers Say",
+  "subtitle": "Real experiences from our customers",
+  "testimonials": [
+    {
+      "quote": "EcoNova has transformed how we think about sustainability. Their technology has helped us reduce our carbon footprint by 35% in just six months.",
+      "authorName": "Sarah Johnson",
+      "authorTitle": "Sustainability Director",
+      "authorCompany": "Green Tech Solutions",
+      "authorImage": {
+        "url": "/images/testimonials/sarah.jpg",
+        "title": "Sarah Johnson"
+      }
+    },
+    {
+      "quote": "The energy savings we've achieved with EcoNova's solutions are remarkable. It's not just about cost reduction, but making a real environmental impact.",
+      "authorName": "Michael Chen",
+      "authorTitle": "Operations Manager",
+      "authorCompany": "Future Industries",
+      "authorImage": {
+        "url": "/images/testimonials/michael.jpg",
+        "title": "Michael Chen"
+      }
+    },
+    {
+      "quote": "What impressed me most was how seamlessly EcoNova's technology integrated with our existing systems. The transition was smooth and the results immediate.",
+      "authorName": "Emma Rodriguez",
+      "authorTitle": "CTO",
+      "authorCompany": "Innovate Corp",
+      "authorImage": {
+        "url": "/images/testimonials/emma.jpg",
+        "title": "Emma Rodriguez"
+      }
+    },
+    {
+      "quote": "As a company committed to sustainability, finding EcoNova was a game-changer. Their solutions have helped us achieve our environmental goals ahead of schedule.",
+      "authorName": "David Kim",
+      "authorTitle": "CEO",
+      "authorCompany": "EcoTech Global",
+      "authorImage": {
+        "url": "/images/testimonials/david.jpg",
+        "title": "David Kim"
+      }
+    }
+  ]
+} 

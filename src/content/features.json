@@ -1,0 +1,42 @@
+{
+  "title": "Key Features",
+  "subtitle": "Discover what makes us different",
+  "features": [
+    {
+      "icon": "🌱",
+      "title": "Sustainable Technology",
+      "description": "Our products are designed with sustainability at their core, reducing environmental impact while maximizing efficiency.",
+      "link": {
+        "text": "Learn More",
+        "url": "#sustainable"
+      }
+    },
+    {
+      "icon": "⚡",
+      "title": "Energy Efficient",
+      "description": "Advanced energy management systems that reduce consumption by up to 40% compared to traditional solutions.",
+      "link": {
+        "text": "View Stats",
+        "url": "#efficiency"
+      }
+    },
+    {
+      "icon": "🌍",
+      "title": "Global Impact",
+      "description": "Join our network of eco-conscious businesses making a real difference in environmental conservation worldwide.",
+      "link": {
+        "text": "Our Impact",
+        "url": "#impact"
+      }
+    },
+    {
+      "icon": "🔄",
+      "title": "Smart Integration",
+      "description": "Seamlessly integrate with existing systems while providing real-time monitoring and optimization capabilities.",
+      "link": {
+        "text": "See How",
+        "url": "#integration"
+      }
+    }
+  ]
+} 

@@ -1,0 +1,63 @@
+{
+  "title": "Product Showcase",
+  "description": "Experience the future of sustainable technology with our innovative product. Designed for efficiency, built for impact.",
+  "specifications": [
+    {
+      "icon": "⚡",
+      "title": "Energy Efficiency",
+      "value": "95% energy efficient, reducing operational costs by up to 40%"
+    },
+    {
+      "icon": "🌱",
+      "title": "Carbon Reduction",
+      "value": "40% less emissions compared to traditional solutions"
+    },
+    {
+      "icon": "🔄",
+      "title": "Smart Integration",
+      "value": "100% compatibility with existing infrastructure"
+    },
+    {
+      "icon": "🛡️",
+      "title": "24/7 Monitoring",
+      "value": "Real-time performance tracking and automated maintenance"
+    },
+    {
+      "icon": "📱",
+      "title": "Mobile Control",
+      "value": "Full control through our intuitive mobile app"
+    },
+    {
+      "icon": "🔋",
+      "title": "Battery Life",
+      "value": "Up to 72 hours of backup power"
+    }
+  ],
+  "images": [
+    {
+      "url": "/images/product/product-1.jpg",
+      "title": "Product Front View",
+      "description": "Main product unit with sleek design"
+    },
+    {
+      "url": "/images/product/product-2.jpg",
+      "title": "Product Side View",
+      "description": "Side view showing compact design"
+    },
+    {
+      "url": "/images/product/product-3.jpg",
+      "title": "Product in Use",
+      "description": "Product integrated in a real environment"
+    },
+    {
+      "url": "/images/product/product-4.jpg",
+      "title": "Control Panel",
+      "description": "Intuitive control interface"
+    }
+  ],
+  "ctaButton": {
+    "text": "View Full Specifications",
+    "link": "#specifications",
+    "variant": "primary"
+  }
+} 

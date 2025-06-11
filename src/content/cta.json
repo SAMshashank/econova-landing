@@ -1,0 +1,9 @@
+{
+  "headline": "Ready to Transform Your Business?",
+  "description": "Contact us today to learn more about how EcoNova can help your organization achieve sustainability goals.",
+  "button": {
+    "text": "Contact Us",
+    "link": "/contact",
+    "variant": "primary"
+  }
+} 

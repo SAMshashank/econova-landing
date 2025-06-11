@@ -1,0 +1,77 @@
+{
+  "copyrightText": "© 2025 EcoNova. All rights reserved.",
+  "socialLinks": [
+    {
+      "platform": "LinkedIn",
+      "url": "https://linkedin.com/company/econova",
+      "label": "Connect with us on LinkedIn",
+      "icon": "fab fa-linkedin"
+    },
+    {
+      "platform": "Twitter",
+      "url": "https://twitter.com/econova",
+      "label": "Follow us on Twitter",
+      "icon": "fab fa-twitter"
+    },
+    {
+      "platform": "Facebook",
+      "url": "https://facebook.com/econova",
+      "label": "Like us on Facebook",
+      "icon": "fab fa-facebook"
+    },
+    {
+      "platform": "Instagram",
+      "url": "https://instagram.com/econova",
+      "label": "Follow us on Instagram",
+      "icon": "fab fa-instagram"
+    },
+    {
+      "platform": "Telegram",
+      "url": "https://t.me/econova",
+      "label": "Join our Telegram channel",
+      "icon": "fab fa-telegram"
+    },
+    {
+      "platform": "Discord",
+      "url": "https://discord.gg/econova",
+      "label": "Join our Discord community",
+      "icon": "fab fa-discord"
+    }
+  ],
+  "navigation": [
+    {
+      "title": "Company",
+      "links": [
+        {
+          "text": "About",
+          "url": "/about"
+        },
+        {
+          "text": "Careers",
+          "url": "/careers"
+        },
+        {
+          "text": "Contact",
+          "url": "/contact"
+        }
+      ]
+    },
+    {
+      "title": "Resources",
+      "links": [
+        {
+          "text": "Blog",
+          "url": "/blog"
+        },
+        {
+          "text": "Documentation",
+          "url": "/docs"
+        },
+        {
+          "text": "Support",
+          "url": "/support"
+        }
+      ]
+    }
+  ]
+} 
