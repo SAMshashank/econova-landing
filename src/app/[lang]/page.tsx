@@ -12,10 +12,6 @@ import { redirect } from 'next/navigation';
 
 const SUPPORTED_LANGUAGES = ['en', 'es'];
 
-export async function generateStaticParams() {
-  return SUPPORTED_LANGUAGES.map((lang) => ({ lang }));
-}
-
 export default async function Home({ params: { lang } }: { params: { lang: string } }) {
   // Redirect to default language if unsupported
   if (!SUPPORTED_LANGUAGES.includes(lang)) {
@@ -25,17 +21,16 @@ export default async function Home({ params: { lang } }: { params: { lang: strin
   const cookieStore = await cookies();
   const isPreview = cookieStore.get('preview')?.value === 'true';
   
-  const content = await getLandingPageData(isPreview);
-  const defaultContent = getDefaultContent();
+  const content = (await getLandingPageData(isPreview) || getDefaultContent()) as LandingPage;
 
   return (
     <main>
-      <Hero content={content?.hero || defaultContent.hero} />
-      <Features content={content?.features || defaultContent.features} />
-      <Testimonials content={content?.testimonials || defaultContent.testimonials} />
-      <ProductShowcase content={content?.productShowcase || defaultContent.productShowcase} />
-      <CTA content={content?.cta || defaultContent.cta} />
-      <Footer content={content?.footer || defaultContent.footer} />
+      <Hero content={content.hero} />
+      <Features content={content.features} />
+      <Testimonials content={content.testimonials} />
+      <ProductShowcase content={content.productShowcase} />
+      <CTA content={content.cta} />
+      <Footer content={content.footer} />
     </main>
   );
 } 
