@@ -1,4 +1,5 @@
 import { createClient } from 'contentful';
+import { LandingPage } from '@/types/contentful';
 
 const space = process.env.CONTENTFUL_SPACE_ID!;
 const accessToken = process.env.CONTENTFUL_ACCESS_TOKEN!;
@@ -12,7 +13,7 @@ export const getClient = (preview = false) => {
   });
 };
 
-export const getLandingPageData = async (preview = false) => {
+export const getLandingPageData = async (preview = false): Promise<LandingPage | null> => {
   const client = getClient(preview);
   
   try {
@@ -26,7 +27,15 @@ export const getLandingPageData = async (preview = false) => {
       return null;
     }
 
-    return response.items[0].fields;
+    const fields = response.items[0].fields;
+    return {
+      hero: fields.hero as LandingPage['hero'],
+      features: fields.features as LandingPage['features'],
+      testimonials: fields.testimonials as LandingPage['testimonials'],
+      productShowcase: fields.productShowcase as LandingPage['productShowcase'],
+      cta: fields.cta as LandingPage['cta'],
+      footer: fields.footer as LandingPage['footer'],
+    };
   } catch (error) {
     console.error('Error fetching landing page data:', error);
     return null;
