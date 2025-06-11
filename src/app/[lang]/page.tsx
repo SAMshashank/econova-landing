@@ -12,7 +12,15 @@ import { redirect } from 'next/navigation';
 
 const SUPPORTED_LANGUAGES = ['en', 'es'];
 
-export default async function Home({ params: { lang } }: { params: { lang: string } }) {
+interface PageProps {
+  params: {
+    lang: string;
+  };
+}
+
+export default async function Home({ params }: PageProps) {
+  const { lang } = params;
+  
   // Redirect to default language if unsupported
   if (!SUPPORTED_LANGUAGES.includes(lang)) {
     redirect('/en');
