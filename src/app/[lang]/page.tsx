@@ -18,10 +18,10 @@ interface PageProps {
   };
 }
 
-export default async function Home({ params }: PageProps) {
-  const { lang } = params;
+export default async function Home(props: PageProps) {
+  const lang = props.params.lang;
   
-  // Redirect to default language if unsupported
+  // Check language support
   if (!SUPPORTED_LANGUAGES.includes(lang)) {
     redirect('/en');
   }
