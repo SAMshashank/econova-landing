@@ -12,7 +12,7 @@ export default function Testimonials({ content }: TestimonialsProps) {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {content.testimonials.map((testimonial, index) => (
             <div key={index} className="testimonial-card">
-              <p className="text-lg text-gray-600 mb-6">"{testimonial.quote}"</p>
+              <p className="text-lg text-gray-600 mb-6">&ldquo;{testimonial.quote}&rdquo;</p>
               <div>
                 <p className="font-bold">{testimonial.authorName}</p>
                 <p className="text-gray-500">{testimonial.authorTitle}</p>
